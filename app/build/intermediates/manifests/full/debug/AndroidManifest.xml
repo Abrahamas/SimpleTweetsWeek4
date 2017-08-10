@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codepath.apps.mysimpletweets"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:name="com.codepath.apps.mysimpletweets.TwitterApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Simple Tweets"
+        android:theme="@style/AppBaseTheme" >
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="RestClient.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+
+        <activity
+            android:name="com.codepath.apps.mysimpletweets.LoginActivity"
+            android:icon="@drawable/ic_launch"
+            android:label="TwitterTemplate"
+            android:theme="@style/AppBaseTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="cpsimpletweets"
+                    android:scheme="@string/intent_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.codepath.apps.mysimpletweets.TimelineActivity"
+            android:theme="@style/AppBaseTheme" />
+        <activity android:name="com.codepath.apps.mysimpletweets.ComposeActivity" />
+    </application>
+
+</manifest>

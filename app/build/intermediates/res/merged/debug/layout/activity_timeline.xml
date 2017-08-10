@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codepath.apps.mysimpletweets.TimelineActivity">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#00f"
+            >
+
+        </android.support.v7.widget.Toolbar >
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        app:pstsShouldExpand="true"
+        app:pstsTextAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_below="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+
+</RelativeLayout>
+

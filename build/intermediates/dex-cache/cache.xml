@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\AHTT - V P-FEMININ\.android\build-cache\cd32b355424875f6cf42dca50bb8d8a5a6509b92\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\build\intermediates\pre-dexed\debug\classes_795959992c356cf61359fa24abe3b92b13660aae.jar" />
+    </item>
+
+</items>
