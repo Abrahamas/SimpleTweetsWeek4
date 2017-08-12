@@ -8,17 +8,17 @@
     tools:context="com.codepath.apps.mysimpletweets.TimelineActivity">
 
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#00f"
-            >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_blue_bright">
 
-        </android.support.v7.widget.Toolbar >
+    </android.support.v7.widget.Toolbar>
 
     <com.astuetz.PagerSlidingTabStrip
         android:id="@+id/tabs"
+        android:layout_below="@+id/toolbar"
         app:pstsShouldExpand="true"
         app:pstsTextAllCaps="true"
         android:layout_width="match_parent"

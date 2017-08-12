@@ -42,6 +42,7 @@ public class TimelineActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
+
         //Get the viewpager
         ViewPager vpPager = (ViewPager) findViewById(R.id.viewpager);
         //Set the viewpager adapter for the pager
@@ -50,9 +51,12 @@ public class TimelineActivity extends AppCompatActivity  {
         PagerSlidingTabStrip tabStrip = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         //Attach the tabstrip to the viewpager
         tabStrip.setViewPager(vpPager);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
     }
 
-
+        //setupSwitchRefreshLayout();
       /*  if (savedInstanceState == null) {
 
         }
@@ -62,9 +66,7 @@ public class TimelineActivity extends AppCompatActivity  {
 
 
 
-        /*Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        setupSwitchRefreshLayout();*/
+
 
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -144,7 +146,7 @@ public class TimelineActivity extends AppCompatActivity  {
     public class TweetsPagerAdapter extends FragmentPagerAdapter{
         //final int PAGE_COUNT = 2;
         //return the order of the fragment in the view page
-        private String tabTitle[] = {"Home", "Mentions"};
+        private String tabTitle[] = {"Home", "@Mentions"};
         public TweetsPagerAdapter(FragmentManager fm) {
             super(fm);
         }

@@ -20,13 +20,16 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/ivProfileImage"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:layout_margin="5dp"
         android:text="Billy" />
 
     <TextView
         android:id="@+id/tvBody"
         android:layout_width="match_parent"
+        android:layout_below="@+id/tvUserName"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/ivProfileImage"
+        android:layout_margin="5dp"
         android:layout_alignStart="@+id/tvUserName"
         android:text="TextView" />
 
