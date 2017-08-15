@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml
@@ -60,7 +60,7 @@ ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\sr
 	android:name
 		ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:14:22-77
 application
-ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:16:5-53:19
+ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:16:5-55:19
 MERGED from [com.github.Raizlabs.DBFlow:dbflow:4.0.3] C:\Users\AHTT - V P-FEMININ\.android\build-cache\6753d4ae63e97698ddb58cd4a6f870776c05a5d5\output\AndroidManifest.xml:11:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\AHTT - V P-FEMININ\.android\build-cache\c8f3a53fd6a475b91b688c787875163b3533aa00\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\AHTT - V P-FEMININ\.android\build-cache\370a42e7d6ca7c3a003db3c70c59e14b020e8811\output\AndroidManifest.xml:29:5-20
@@ -147,6 +147,10 @@ activity#com.codepath.apps.mysimpletweets.ComposeActivity
 ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:52:9-62
 	android:name
 		ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:52:19-50
+activity#com.codepath.apps.mysimpletweets.ProfileActivity
+ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:54:9-62
+	android:name
+		ADDED from C:\Users\AHTT - V P-FEMININ\Documents\GitHub\SimpleTweetsWeek4\app\src\main\AndroidManifest.xml:54:19-50
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\AHTT - V P-FEMININ\.android\build-cache\370a42e7d6ca7c3a003db3c70c59e14b020e8811\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\AHTT - V P-FEMININ\.android\build-cache\c7c6f2c1b5f4ac90917cfacda3d8e943d4594988\output\AndroidManifest.xml:25:5-27:34

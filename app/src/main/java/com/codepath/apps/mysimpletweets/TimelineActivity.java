@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.codepath.apps.mysimpletweets.fragment.HomeTimelineFragment;
@@ -126,21 +127,16 @@ public class TimelineActivity extends AppCompatActivity  {
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-       /* if (id == R.id.action_settings) {
-            return true;
-        }*/
-        return super.onOptionsItemSelected(item);
-    }
-    public void onProfileView (MenuItem mi){
-        //Launch the activity_profile view
+
+
+    public void onProfileView(MenuItem mi){
+        //Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(this, ProfileActivity.class);
         startActivity(i);
-
-
     }
+
+
+
 
     //return fragment in the view pager
     public class TweetsPagerAdapter extends FragmentPagerAdapter{

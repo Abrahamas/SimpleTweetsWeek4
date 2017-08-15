@@ -55,6 +55,7 @@
             android:name="com.codepath.apps.mysimpletweets.TimelineActivity"
             android:theme="@style/AppBaseTheme" />
         <activity android:name="com.codepath.apps.mysimpletweets.ComposeActivity" />
+        <activity android:name="com.codepath.apps.mysimpletweets.ProfileActivity" />
     </application>
 
 </manifest>

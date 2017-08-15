@@ -42,7 +42,7 @@ public class ProfileActivity extends AppCompatActivity {
                                    user = User.fromJSON(response);
                                    //My current user account's information
                                    getSupportActionBar().setTitle("@" + user.getScreenName());
-                                   populateProfilHeader(user);
+                                   populateProfileHeader(user);
 
                                }
                            });
@@ -61,7 +61,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     }
 
-    private void populateProfilHeader(User user) {
+    private void populateProfileHeader(User user) {
         TextView tvName = (TextView) findViewById(R.id.tvFullName);
         TextView tvTagline = (TextView) findViewById(R.id.tvTagline);
         TextView tvFollowers = (TextView) findViewById(R.id.tvFollowers);

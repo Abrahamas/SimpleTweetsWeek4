@@ -2,6 +2,7 @@ package com.codepath.apps.mysimpletweets.fragment;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ListView;
 
 import com.codepath.apps.mysimpletweets.TwitterApplication;
 import com.codepath.apps.mysimpletweets.TwitterClient;
@@ -20,12 +21,15 @@ import cz.msebera.android.httpclient.Header;
  */
 
 public class UserTimelineFragment extends TweetsListFragment {
-    private TwitterClient client;
+
+        private TwitterClient client;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         client = TwitterApplication.getRestClient();
+
         populateTimeline();
     }
     public static UserTimelineFragment newInstance(String screen_name) {
