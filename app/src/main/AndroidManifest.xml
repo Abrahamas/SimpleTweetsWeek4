@@ -16,8 +16,8 @@
     <application
         android:name=".TwitterApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="Simple Tweets"
+        android:icon="@drawable/ic_logo_twitter"
+        android:label="Home Timeline"
         android:theme="@style/AppBaseTheme">
         <meta-data
             android:name="AA_DB_NAME"
@@ -28,8 +28,8 @@
 
         <activity
             android:name=".LoginActivity"
-            android:label="TwitterTemplate"
-            android:icon="@drawable/ic_launch"
+            android:label="Twitter"
+            android:icon="@drawable/ic_logo_twitter"
             android:theme="@style/AppBaseTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

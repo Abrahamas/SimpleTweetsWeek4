@@ -6,17 +6,37 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/ic_launch"
+    android:background="#ffd6d7d7"
     tools:context=".LoginActivity" >
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_logo_twitter" />
+
     <Button
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="loginToRest"
-        android:text="@string/login_label"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="loginToRest"
+        android:text="@string/login_label" />
 
 </RelativeLayout>

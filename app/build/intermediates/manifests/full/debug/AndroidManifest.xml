@@ -20,8 +20,8 @@
     <application
         android:name="com.codepath.apps.mysimpletweets.TwitterApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="Simple Tweets"
+        android:icon="@drawable/ic_logo_twitter"
+        android:label="Home Timeline"
         android:theme="@style/AppBaseTheme" >
         <meta-data
             android:name="AA_DB_NAME"
@@ -32,8 +32,8 @@
 
         <activity
             android:name="com.codepath.apps.mysimpletweets.LoginActivity"
-            android:icon="@drawable/ic_launch"
-            android:label="TwitterTemplate"
+            android:icon="@drawable/ic_logo_twitter"
+            android:label="Twitter"
             android:theme="@style/AppBaseTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
